@@ -1,3 +1,3 @@
 # TimeDecimal
 
-Convert time to decimal
+Convert formatted time (HH:MM:SS) to decimal values
