@@ -22,7 +22,7 @@ body {
 }
 
 .input-group > input {
-  width: 100px;
+  width: 40px;
   font-size: 1.2rem;
   margin: 0 4px;
 }
