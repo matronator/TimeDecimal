@@ -4,8 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Time Calculator</title>
+  <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-  <input type="number" name="" id="">
+  <div class="input-group">
+    <input type="text" name="hours" id="hours" value="1">:
+    <input type="text" name="minutes" id="minutes" value="30">:
+    <input type="text" name="seconds" id="seconds" value="45">
+  </div>
+  <div class="output">
+    <p>
+      <span id="out-h"></span> hours
+    </p>
+    <p>
+      <span id="out-m"></span> minutes
+    </p>
+    <p>
+      <span id="out-s"></span> seconds
+    </p>
+  </div>
+  <script src="./src/js/main.js"></script>
+  <script src="./src/js/ui.js"></script>
 </body>
 </html>
