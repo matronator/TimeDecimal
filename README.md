@@ -8,6 +8,8 @@ https://matronator.github.io/TimeDecimal/
 
 ### NPM
 
+https://www.npmjs.com/package/time-decimal
+
 ```
 npm i time-decimal
 ```
