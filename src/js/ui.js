@@ -3,6 +3,12 @@ const hi = document.getElementById("hours");
 const mi = document.getElementById("minutes");
 const si = document.getElementById("seconds");
 
+si.addEventListener("keydown", function(e){
+  if (e.keyCode === 9) {
+    hi.focus();
+  }
+});
+
 // Outputs
 var ho = document.getElementById("out-h");
 var mo = document.getElementById("out-m");
