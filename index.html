@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-  <div class="input-group">
+  <div class="input-group" tabindex="0">
     <input type="text" name="hours" id="hours" value="1" tabindex="0">:
-    <input type="text" name="minutes" id="minutes" value="30" tabindex="1">:
-    <input type="text" name="seconds" id="seconds" value="0" tabindex="2">
+    <input type="text" name="minutes" id="minutes" value="30" tabindex="0">:
+    <input type="text" name="seconds" id="seconds" value="0" tabindex="0">
   </div>
   <div class="output">
     <p>
@@ -23,7 +23,7 @@
       <span id="out-s"></span> seconds
     </p>
   </div>
-  <script defer src="./dist/time-decimal.min.js"></script>
+  <script src="./dist/time-decimal.min.js"></script>
   <script defer src="./src/js/ui.js"></script>
 </body>
 </html>
