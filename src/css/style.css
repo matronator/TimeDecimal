@@ -11,7 +11,7 @@ body {
 .input-group {
   display: flex;
   flex-direction: row;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   align-items: center;
 }
 .output {
@@ -23,6 +23,6 @@ body {
 
 .input-group > input {
   width: 40px;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   margin: 0 4px;
 }

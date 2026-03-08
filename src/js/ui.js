@@ -1,11 +1,17 @@
+document.addEventListener("DOMContentLoaded", () => {
+  hi.focus();
+});
+
 // Inputs
 const hi = document.getElementById("hours");
 const mi = document.getElementById("minutes");
 const si = document.getElementById("seconds");
 
 si.addEventListener("keydown", function(e){
-  if (e.keyCode === 9) {
+  if (e.key === "Tab") {
+    e.preventDefault();
     hi.focus();
+    hi.select();
   }
 });
 
@@ -45,6 +51,15 @@ si.addEventListener("input", function(){
   } else {
     this.value = "0";
   }
+});
+
+[hi, mi, si].forEach(el => {
+  el.addEventListener('blur', () => {
+    if (el.value === '') {
+      el.value = '0';
+      calculateAll();
+    }
+  });
 });
 
 // Init
